@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Bangladesh - FAQs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/3259a9335c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#B4F461',
+                background: '#F9F7F3',
+                hover: '#90EE90'
+              },
+              fontFamily: {
+                lexend: "Lexend, sans-serif"
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="font-lexend bg-background overflow-x-hidden">
+    
+    <!-- Navbar Section -->
+    <header class="container mx-auto sticky top-0 bg-background py-6 shadow-lg rounded-b-lg z-10">
+      <section class="w-11/12 mx-auto flex justify-between items-center">
+          <a href="index.html" class="hidden lg:flex items-center gap-4">
+            <img src="images/logo.png" alt="Donate Bangladesh Logo" class="w-10 h-10">
+            <h1 class="font-bold text-xl">Donate Bangladesh</h1>
+          </a>
+          <nav class="flex gap-8 items-center">
+              <div class="hidden lg:flex">
+                  <a href="index.html" class="text-lg font-semibold hover:underline">Home</a>
+              </div>
+              <div class="flex items-center gap-4">
+                <img src="images/coin.png" alt="Total Donation" class="w-8 h-8">
+                <h1 class="font-medium text-lg"><span id="totalAmount">6980</span> BDT</h1>
+              </div>
+              <div class="dropdown">
+                <label tabindex="0" class="lg:hidden">
+                  <i class="fa-solid fa-bars text-xl"></i>
+                </label>
+                <ul class="menu dropdown-content mt-3 p-2 shadow bg-background rounded-box w-52">
+                  <li><a href="index.html">Home</a></li>
+                </ul>
+              </div>
+          </nav>
+      </section>
+    </header>
+
+    <!-- FAQ Section -->
+    <main class="container mx-auto py-12">
+        <section class="w-11/12 mx-auto space-y-10 max-w-full">
+            <h1 class="text-4xl font-bold text-primary break-words">Frequently Asked Questions <i class="fa-regular fa-circle-question"></i></h1>
+            <div class="join join-vertical w-full max-w-full">
+                <div class="collapse collapse-arrow join-item border border-gray-300 shadow-sm rounded-lg">
+                  <input type="checkbox" class="peer" />
+                  <div class="collapse-title text-xl font-semibold peer-checked:bg-hover">
+                    How can I donate to flood relief efforts?
+                  </div>
+                  <div class="collapse-content bg-background text-lg p-4 rounded-b-lg max-w-full break-words">
+                    <p>You can donate to flood relief efforts by clicking on the 'Donate' button on our homepage. You can choose the amount and method of payment, including credit card, bank transfer, or mobile banking services.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border border-gray-300 shadow-sm rounded-lg">
+                  <input type="checkbox" class="peer" />
+                  <div class="collapse-title text-xl font-semibold peer-checked:bg-hover">
+                    Where does my donation go?
+                  </div>
+                  <div class="collapse-content bg-background text-lg p-4 rounded-b-lg max-w-full break-words">
+                    <p>Your donation will be used to provide immediate relief to flood victims, including food, water, medical aid, and shelter. We work with local partners to ensure the funds are allocated where they are needed most.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border border-gray-300 shadow-sm rounded-lg">
+                  <input type="checkbox" class="peer" />
+                  <div class="collapse-title text-xl font-semibold peer-checked:bg-hover">
+                    Can I track the impact of my donation?
+                  </div>
+                  <div class="collapse-content bg-background text-lg p-4 rounded-b-lg max-w-full break-words">
+                    <p>Yes, once you donate, you will receive updates on how your contribution is being used. You can also visit our 'Impact' page to see the number of people helped and resources distributed through your generosity.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border border-gray-300 shadow-sm rounded-lg">
+                  <input type="checkbox" class="peer" />
+                  <div class="collapse-title text-xl font-semibold peer-checked:bg-hover">
+                    Are donations tax-deductible?
+                  </div>
+                  <div class="collapse-content bg-background text-lg p-4 rounded-b-lg max-w-full break-words">
+                    <p>Yes, donations made to our platform are tax-deductible. After completing your donation, you will receive a receipt via email that you can use for tax purposes.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border border-gray-300 shadow-sm rounded-lg">
+                  <input type="checkbox" class="peer" />
+                  <div class="collapse-title text-xl font-semibold peer-checked:bg-hover">
+                    How can I volunteer or get involved beyond donations?
+                  </div>
+                  <div class="collapse-content bg-background text-lg p-4 rounded-b-lg max-w-full break-words">
+                    <p>In addition to donating, you can volunteer with us by joining local efforts in the affected areas. Visit our 'Get Involved' page to find out how you can support our on-the-ground efforts.</p>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="container mx-auto bg-background py-6 mt-20 text-center">
+        <p class="font-medium">&copy; 2024 Donate Bangladesh. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
